@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="cartstyles.css">
+<link rel="stylesheet" type="text/javascript" href="js/bootstrap.js">
+<link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<style>
+
+	.clear { 
+    clear:both; 
+	}
+	.div#sticker {
+		padding:20px;
+		margin:20px 0;
+		background:#AAA;
+		width:190px;
+	}
+	.stick {
+		position:fixed;
+		top:0px;
+	}
+	
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script>
+$('#navbar').affix()
+</script>
+<title>shop@EZ - CART Page</title>
+</head>
+<body class="body_products">
+
+    <div class="container">
+	<nav class="navbar navbar-default fix-nav">		
+		<div class="navbar-header ">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+        </button>
+			<a class="navbar-brand" href="#" style="font-style:droid serif;font-weight:bold;font-size:25px;color:white;">Shop@EZ</a>
+		</div>
+		<div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav" style="float:right;">
+				<li><a href="homepage.html" style="color:white";>Home</a></li>
+				<li><a href="cart.html" style="color:white";>Our Products</a></li>
+				<li><a href="homepage.html#recent-works" style="color:white";>About Us</a></li>
+				<li><a href="homepage.html#footer" style="color:white";>Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	</div>
+	
+	<div class="container" style="margin-top:5%;">
+	    <div class="row">
+			<div class="col-md-3 sidebar">
+			<div class="hidden-sm hidden-xs ">				
+				<h4 class="font">TOP BRANDS</h4>
+				<ul class="ulc"> <!--style="width:100%;height:80%;overflow:hidden;overflow-y:scroll;"-->
+					<li class="lic"><a href="motorola.html">Motorola </a> </li>
+					<li class="lic"><a href="samsung.html">Samsung </a> </li>
+					<li class="lic"><a href="apple.html">Apple </a> </li>
+					<li class="lic"><a href="nokia.html">Nokia </a> </li>
+					<li class="lic"><a href="sony.html">Sony </a> </li>
+					<li class="lic"><a href="asus.html">Asus </a> </li>
+					<li class="lic"><a href="micromax.html">Micromax</a> </li>
+					<li class="lic"><a href="others.html">Others</a> </li>
+					<li class="lic"><a href="cart.html">All</a> </li>									
+				</ul>
+			</div><br>
+			
+					
+			<div class="hidden-sm hidden-xs">
+				<h4 class="font">PRICE</h4>
+				<ul class="ulc">
+					<li class="lic"><a href="">Rs. 2000 and Below </a> </li>
+					<li class="lic"><a href="">Rs. 2001 - 5000 </a> </li>
+					<li class="lic"><a href="">Rs. 5001 - 10000 </a> </li>
+					<li class="lic"><a href="">Rs. 100001-15000 </a> </li>
+					<li class="lic"><a href="">Rs. 150001-25000 </a> </li>
+					<li class="lic"><a href="">Rs. 250001-35000 </a> </li>
+					<li class="lic"><a href="">Rs. 350001 and above </a> </li>
+				</ul>
+			</div><br>					
+			
+			<div class="hidden-sm hidden-xs">
+					<h4 class="font">MOBILE TYPE</h4>
+					<ul class="ulc">
+							<li class="lic" value="volvo"><a href="">Smart phones</a></li>
+							<li class="lic" value="saab"><a href="">Featured phones</a></li>
+					</ul>
+			</div><br>
+			
+			<div class="hidden-sm hidden-xs">
+				<h4 class="font">TOP OS</h4>
+				<ul class="ulc">
+				<li class="lic"><a href="">Android</a> </li>
+				<li class="lic"><a href="">Windows </a> </li>
+				<li class="lic"><a href="">ios </a> </li>
+				<li class="lic"><a href="">Blackberry os </a> </li>
+				<li v><a href="">All</a> </li>
+				</ul>
+			</div>
+			</div>
+			
+			
+				<!--visible when screen size is small (sm) and xs -->
+			
+				<div class="visible-sm visible-xs col-sm-3"><center>
+					<h4 class="font">TOP BRANDS</h4><br>
+					<select>
+							<option value="volvo">Motorola</option>
+							<option value="saab">Samsung</option>
+							<option value="opel">Apple</option>
+							<option value="audi">Nokia</option>
+							<option value="audi">Sony</option>
+							<option value="audi">Asus</option>
+							<option value="audi">Micromax</option>
+							<option value="audi">All</option>
+					</select>
+				</div>
+				<div class="visible-sm visible-xs col-sm-3" style="display:flex;"><center>
+					<h4 class="font">PRICE</h4><br>
+					<select>
+							<option value="volvo">Rs. 2000 and Below </option>
+							<option value="saab">Rs. 2001 - 5000</option>
+							<option value="opel">Rs. 5001 - 10000 </option>
+							<option value="audi">Rs. 100001-15000</option>
+							<option value="audi">Rs. 150001-25000 </option>
+							<option value="audi">Rs. 250001-35000</option>
+							<option value="audi">Rs. 350001 and above</option>
+					</select>
+				</div>
+				<div class="visible-sm visible-xs col-sm-3"><center>
+					<h4 class="font">MOBILE TYPE</h4><br>
+					<select>
+							<option value="volvo">Smart phones</option>
+							<option value="saab">Featured phones</option>
+					</select>
+				</div>
+				<div class="visible-sm visible-xs"><center>
+					<h4 class="font">TOP OS</h4><br>
+					<select>
+							<option value="volvo">Android</option>
+							<option value="saab">ios</option>
+							<option value="opel">Windows</option>
+							<option value="audi">Blackberry os</option>
+							<option value="audi">All</option>
+					</select>
+				</div>
+			
+								
+			<div class="col-md-8" style="background-color:#FFF;margin-left:37%;">					
+										
+					<div class="col-md-3">					
+					<a href="#"><img class="image img-responsive" src="products/motoe.jpeg" alt="motog2"></a>		
+					<ul style="list-style:none;">
+						<li><b>Moto E</b></li>						
+						<li>Rs.6,999<li>						
+					</ul>														
+					</div>
+					
+					<div class="col-md-3">					
+					<img class="image img-responsive" src="products/motog2.jpeg" alt="motog2">		
+					<ul style="list-style:none;">
+						<li><b>Moto G2</b></li>						
+						<li>Rs.12,999<li>						
+					</ul>														
+					</div>
+										
+					<div class="col-md-3">					
+					<img class="image img-responsive" src="products/motox.jpeg" alt="motog2">		
+					<ul style="list-style:none;">
+						<li><b>Moto X</b></li>						
+						<li>Rs.17,999<li>						
+					</ul>														
+					</div>
+					
+					<div class="col-md-3">					
+					<img class="image img-responsive" src="products/motox2.jpeg" alt="motog2">		
+					<ul style="list-style:none;">
+						<li><b>Moto X2</b></li>						
+						<li>Rs.33,999<li>						
+					</ul>														
+					</div>
+										
+			</div>
+					
+			<div class="col-md-8" style="background-color:#FFF;margin-left:37%;">					
+					
+					<div class="col-md-3">					
+					<img src="products/htc.jpeg" alt="htc" class="image img-responsive">								
+					<ul style="list-style:none;">
+						<li><b>HTC Butterfly</b></li>
+						<li>Rs.38,990</li>			
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/nokia.jpeg" alt="nokia" class="image img-responsive">
+					<ul style="list-style:none;">
+						<li><b>Nokia Lumia</b></li>
+						<li>Rs.5,999</li>
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/karbonn.jpeg" alt="karbonn" class="image img-responsive">					
+					<ul style="list-style:none;">
+						<li><b>Karbonn</b></li>
+						<li>Rs.7821</li>									
+					</ul>
+					</div>
+										
+										
+					<div class="col-md-3">					
+					<img src="products/lenovo.jpeg" alt="lenovo" class="image img-responsive">
+					<ul style="list-style:none;">
+					<li><b>Lenovo</b></li>
+					<li>Rs.14490</li>	
+					</ul>
+					</div>
+			</div>
+					
+			<div class="col-md-8" style="background-color:#FFF;margin-left:37%;">					
+					
+					<div class="col-md-3">					
+					<img src="products/micromaxcanvas.jpeg" alt="micromaxcanvas" class="image img-responsive">
+					<ul style="list-style:none;">
+					<li><b>MicromaxCanvas</b></li>
+					<li>Rs.5865</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/micromaxunite.jpeg" alt="micromaxunite" class="image img-responsive">
+					<ul style="list-style:none;">
+					<li><b>MicromaxUnite</b></li>
+					<li>Rs.6900</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/xolo.jpeg" alt="xolo" class="image img-responsive">
+					<ul style="list-style:none;">					
+					<li><b>Xolo</b></li>
+					<li>Rs.5886</li>					
+					</ul>
+					</div>
+																		
+					<div class="col-md-3">					
+					<img src="products/asuszenfone5.jpeg" alt="asuszenfone5" class="image img-responsive">
+					<ul style="list-style:none;">
+					<li><b>AsusZenfone5</b></li>
+					<li>Rs.9999</li>					
+					</ul>
+					</div>
+			</div>
+									
+			<div class="col-md-8" style="background-color:#FFF;margin-left:37%;">					
+										
+					<div class="col-md-3">					
+					<img src="products/htcdesire210.jpeg" alt="htcdesire210" class="image img-responsive">					<ul style="list-style:none;">				
+					<li><b>Htc Desire 210</b></li>
+					<li>Rs.8350</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/samsunggalaxy.jpeg" alt="samsunggalaxy" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>Samsung Galaxy</b></li>
+					<li>Rs.5252</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/googlenexus.jpeg" alt="googlenexus" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>Google Nexus</b></li>
+					<li>Rs.26999</li>					
+					</ul>
+					</div>
+										
+					<div class="col-md-3">					
+					<img src="products/nokiax.jpeg" alt="nokiax" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>NokiaX</b></li>
+					<li>Rs.5888</li>					
+					</ul>
+					</div>
+			</div>
+			
+			<div class="col-md-8" style="background-color:#FFF;margin-left:37%;">					
+					
+					<div class="col-md-3">					
+					<img src="products/alcatel.jpeg" alt="alcatel" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>Alcatel</b></li>
+					<li>Rs.14999</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/appleiphone4s.jpeg" alt="appleiphone4s" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>AppleIphone4s</b></li>
+					<li>Rs.23000</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/sony1.jpeg" alt="appleiphone4s" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>Sony Xperia M</b></li>
+					<li>Rs.10,490</li>					
+					</ul>
+					</div>
+				
+					<div class="col-md-3">					
+					<img src="products/sony2.jpeg" alt="appleiphone4s" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>Sony Xperia M2 Dual</b></li>
+					<li>Rs.16,999</li>					
+					</ul>
+					</div>
+					
+					<div class="col-md-3">					
+					<img src="products/samsunggrand.jpeg" alt="samsunggrand" class="image img-responsive">
+					<ul style="list-style:none;">				
+					<li><b>Samsung Grand</b></li>
+					<li>Rs.217900</li>					
+					</ul>
+					</div>
+				</div>						
+			
+		</div>
+		</div>
+	
+</body>
+</html>
