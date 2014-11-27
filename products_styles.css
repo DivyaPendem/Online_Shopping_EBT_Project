@@ -1,0 +1,50 @@
+.content .results-cnt ul.results {
+clear: both;
+position: relative;
+width: 100%;
+}
+p, blockquote, pre, a, abbr, address, cit, code, del, dfn, em, ins, q, samp, small, strong, sub, sup, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, legend, label {
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+Pseudo ::before element
+.content .results-cnt ul.results:before {
+width: 95.2%;
+height: 1px;
+background-color: rgba(173,174,175,0.8);
+position: absolute;
+top: -20px;
+content: ' ';
+}
+@media screen and (max-width: 1439px)
+ul.results.small>li, ul.products.small>li, ul.alsopopular.small>li, ul.recentlyviewed.small>li, ul.rack.small>li, ul.results.small ul.rack>li, ul.products.small ul.rack>li, ul.alsopopular.small ul.rack>li, ul.recentlyviewed.small ul.rack>li, ul.rack.small ul.rack>li {
+width: 180px;
+height: 333px;
+margin-right: 13px;
+}
+ul.results>li, ul.products>li, ul.alsopopular>li, ul.recentlyviewed>li, ul.rack>li {
+
+display: inline-block;
+position: relative;
+margin: 0 1% 1% 0;
+text-align: center;
+vertical-align: top;
+overflow: hidden;
+}
+.container li {
+list-style: none;
+}
+
