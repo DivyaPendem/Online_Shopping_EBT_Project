@@ -14,31 +14,21 @@
 <link rel="stylesheet" type="text/css" href="products_styles.css">
 <link rel="stylesheet" type="text/javascript" href="js/bootstrap.js">
 <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js">
+
+<link href="perfect-scrollbar.min.css" rel="stylesheet">
+<script src="jquery.min.js" ></script>
+<script src="angular.min.js" ></script>
+<script src="perfect-scrollbar.with-mousewheel.min.js" ></script>
+<script src="angular-perfect-scrollbar.js" ></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
-<style>
-
-	.clear { 
-    clear:both; 
-	}
-	.div#sticker {
-		padding:20px;
-		margin:20px 0;
-		background:#AAA;
-		width:190px;
-	}
-	.stick {
-		position:fixed;
-		top:0px;
-	}
-	
-</style>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script>
-$('#navbar').affix()
-</script>
+
 <title>shop@EZ - CART Page</title>
+
+
 </head>
 <body class="body_products">
 
@@ -67,11 +57,11 @@ $('#navbar').affix()
 	<div class="container" style="margin-top:5%;">
 	    <div class="row">
 			<div class="col-md-2" style="background-color:#FFF;height:80%;">
-			<div class="hidden-sm hidden-xs">				
+			<div class="hidden-sm hidden-xs">			
 			<h4 class="font">TOP BRANDS</h4>
-			<div style="height:120px;overflow:scroll;overflow-x:hidden;">
-				<ul class="ulc"> <!--style="width:100%;height:80%;overflow:hidden;overflow-y:scroll;"-->
-					<li class="lic"><a href="motorola.html">Motorola </a> </li>
+			<div style="height:120px;overflow:hidden;overflow:auto;">
+			<ul> <!--style="width:100%;height:80%;overflow:hidden;overflow-y:scroll;"-->
+					<li class="lic">Motorola </li>
 					<li class="lic"><a href="samsung.html">Samsung </a> </li>
 					<li class="lic"><a href="apple.html">Apple </a> </li>
 					<li class="lic"><a href="nokia.html">Nokia </a> </li>
@@ -79,15 +69,16 @@ $('#navbar').affix()
 					<li class="lic"><a href="asus.html">Asus </a> </li>
 					<li class="lic"><a href="micromax.html">Micromax</a> </li>
 					<li class="lic"><a href="others.html">Others</a> </li>
-					<li class="lic"><a href="cart.html">All</a> </li>									
-				</ul>
+					<li class="lic"><a href="cart.html">All</a> </li>							
+				</ul>												
 			</div>
-			</div><br>
+			</div>
+			<br>
 								
 			<div class="hidden-sm hidden-xs">
-				<h4 class="font">PRICE</h4>
+			<h4 class="font">PRICE</h4>		
 			<div style="height:120px;overflow:scroll;overflow-x:hidden;">
-				<ul class="ulc">
+			<ul>
 					<li class="lic"><a href="">Rs. 2000 and Below </a> </li>
 					<li class="lic"><a href="">Rs. 2001 - 5000 </a> </li>
 					<li class="lic"><a href="">Rs. 5001 - 10000 </a> </li>
@@ -95,13 +86,14 @@ $('#navbar').affix()
 					<li class="lic"><a href="">Rs. 150001-25000 </a> </li>
 					<li class="lic"><a href="">Rs. 250001-35000 </a> </li>
 					<li class="lic"><a href="">Rs. 350001 and above </a> </li>
-				</ul>
+			</ul>			
 			</div>
-			</div><br>					
+			</div>
+			<br>					
 								
 			<div class="hidden-sm hidden-xs">
-				<h4 class="font">TOP OS</h4>
-			<div style="height:120px;overflow:scroll;overflow-x:hidden;">
+			<h4 class="font">TOP OS</h4>
+			<div style="height:80px;overflow:scroll;overflow-x:hidden;">
 				<ul class="ulc">
 				<li class="lic"><a href="">Android</a> </li>
 				<li class="lic"><a href="">Windows </a> </li>
@@ -110,7 +102,7 @@ $('#navbar').affix()
 				<li v><a href="">All</a> </li>
 				</ul>
 			</div>
-			</div>
+			</div><br>
 			</div>
 						
 				<!--visible when screen size is small (sm) and xs -->
@@ -159,11 +151,10 @@ $('#navbar').affix()
 				</div>
 			
 								
-			<div class="col-md-10" style="background-color:#FFF;height:650px;overflow:scroll;overflow-x:hidden;">		
+			<div class="col-md-10" style="background-color:#FFF;height:650px;overflow:scroll;overflow-x:hidden;">
 				<ul class="results small" style="list-style-type:none;">	
 				
-					<li>
-										
+					<li>										
 					<img class="image img-responsive" src="products/motoe.jpeg" alt="motog2">		
 					<ul style="list-style:none;">
 						<li><b>Moto E</b></li>						
@@ -334,9 +325,9 @@ $('#navbar').affix()
 		</div>
 	<div class="container">
 	<div class="row">	
-        <p>&copy; 2014 shop@EZ.com All rights reserved | Privacy Policy | Terms of use</p>
-		
+        <p>&copy; 2014 shop@EZ.com All rights reserved | Privacy Policy | Terms of use</p>		
 		</div>
-            </div>
+    </div>
+	
 </body>
 </html>

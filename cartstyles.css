@@ -43,7 +43,7 @@ text-align: left;
 
 .lic
 {
-margin: 1em 0;
+margin: 0 0 0 0;
 }
 .image{
 width:30%;
@@ -55,6 +55,17 @@ padding-right:2%;
 display: block;
 margin-left: auto;
 margin-right: auto;
+}
+.scroller {     	
+    height: 80px;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+}.scroller12 {     	
+    height: 80px;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
 }
 *{
 		-webkit-box-sizing: border-box;
