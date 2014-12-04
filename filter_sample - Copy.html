@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="viewport" content="width=device-width, 
-                                     initial-scale=1.0, 
-                                     maximum-scale=1.0, 
-                                     user-scalable=no">
+<html>
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="cartstyles.css">
 <link rel="stylesheet" type="text/css" href="products_styles.css">
 <link rel="stylesheet" type="text/javascript" href="js/bootstrap.js">
 <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js">
-<!--
-<script type="text/javascript" src="jquery-1.7.2.js"/>
-<script type="text/javascript" src="jquery-1.7.2.min.js"/>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.7.2.js"></script>
@@ -36,13 +22,11 @@
             });
         });      
 	</script>
-
-<title>shop@EZ - CART Page</title>
-
 </head>
-<body class="body_products">
 
-    <div class="container">
+<body>
+
+ <div class="container">
 	<nav class="navbar navbar-default fix-nav">		
 		<div class="navbar-header ">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -54,10 +38,7 @@
 			<a class="navbar-brand" href="#" style="font-style:droid serif;font-weight:bold;font-size:25px;color:white;">Shop@EZ</a>
 		</div>
 		<div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			
 			<ul class="nav navbar-nav" style="float:right;">
-				<li><a><input type="text" name="q" class="search-bar-text fk-font-13 ac_input" placeholder="Search for a product, category or brand" size="55">
-				<input type="submit" value="Search"></a></li>
 				<li><a href="homepage.html" style="color:white";>Home</a></li>
 				<li><a href="cart.html" style="color:white";>Our Products</a></li>
 				<li><a href="homepage.html#recent-works" style="color:white";>About Us</a></li>
@@ -74,17 +55,16 @@
 			<h4 class="font">TOP BRANDS</h4>			
 			<div class="tags" style="height:120px;overflow:hidden;overflow:auto;">			
 			<ul style="list-style-type: none;"> 
-					<li class="lic"><input type="checkbox" rel="moto" />Motorola</li>					
+					<li class="lic">
+							<input type="checkbox" rel="moto" />
+							Motorola
+					</li>					
 					<li class="lic"><input type="checkbox" rel="samsung" />Samsung </li>
 					<li class="lic"><input type="checkbox" rel="apple" />Apple  </li>
 					<li class="lic"><input type="checkbox" rel="nokia" />Nokia  </li>
 					<li class="lic"><input type="checkbox" rel="sony" />Sony  </li>
 					<li class="lic"><input type="checkbox" rel="asus" />Asus  </li>
 					<li class="lic"><input type="checkbox" rel="micromax" />Micromax </li>					
-					<li class="lic"><input type="checkbox" rel="alcatel" />Alcatel </li>
-					<li class="lic"><input type="checkbox" rel="karbonn" />Karbonn </li>
-					<li class="lic"><input type="checkbox" rel="htc" />HTC </li>
-					<li class="lic"><input type="checkbox" rel="google" />Google </li>
 					<li class="lic"><input type="checkbox" rel="all" />All </li>							
 			</ul>															
 			</div>
@@ -120,8 +100,9 @@
 			</div>
 			</div><br>
 			</div>
-						
-				<!--visible when screen size is small (sm) and xs -->
+			
+			
+			<!--visible when screen size is small (sm) and xs -->
 			
 				<div class="visible-sm visible-xs col-sm-3"><center>
 					<h4 class="font">TOP BRANDS</h4><br>
@@ -165,28 +146,40 @@
 							<option value="audi">All</option>
 					</select>
 				</div>
-			
-								
-			<div class="col-md-10" style="background-color:#FFF;height:650px;overflow:scroll;overflow-x:hidden;">
-				<ul class="results" style="list-style-type: none;">	
 				
-					<li class="all moto">										
-					<img class="image img-responsive" src="products/motoe.jpeg" alt="motog2"></img>	
+				
+		
+	<div class="col-md-10" style="background-color:#FFF;height:650px;overflow:scroll;overflow-x:hidden;">
+    <ul class="results" style="list-style-type: none;">
+       <!-- <li class="image img-responsive all moto"><img src="motoe.jpeg"></img><ul><li>hai</li></ul></li>
+		<li class="image img-responsive all moto"><img src="motog2.jpeg"></img></li>
+		<li class="image img-responsive all moto"><img src="motox2.jpeg"></img></li>
+		<li class="image img-responsive all micro"><img src="micromaxcanvas.jpeg"></img></li>
+		<li class="image img-responsive all micro"><img src="micromaxunite.jpeg"></img></li>
+		<li class="image img-responsive all nokia"><img src="nokia.jpeg"></img></li>
+        <li class="all nokia"><img src="nokiax.jpeg"></img></li>        
+		<li class="all sony"><img src="sony1.jpeg"></img></li>        
+		<li class="all sony"><img src="sony2.jpeg"></img></li> -->
+
+		<li class="image img-responsive all moto">										
+				<img src="products/motoe.jpeg" alt="motog2"></img>	
 					<ul style="list-style:none;">
 						<li><b>Moto E</b></li>						
 						<li>Rs.6,999<li>						
 					</ul>										
-					</li>
+		</li>
 					
-					<li class="all moto">									
-					<img class="image img-responsive" src="products/motog2.jpeg" alt="motog2">	</img>	
+					<li>									
+					<img class="all moto" src="products/motog2.jpeg" alt="motog2">	</img>	
 					<ul style="list-style:none;">
 						<li><b>Moto G2</b></li>						
 						<li>Rs.12,999<li>						
-					</ul>																		
+					</ul>														
+				
 					</li>
 					
-					<li class="all moto">									
+					<li>
+										
 					<img class="image img-responsive all moto" src="products/motox.jpeg" alt="motog2"></img>	
 					<ul style="list-style:none;">
 						<li><b>Moto X</b></li>						
@@ -195,153 +188,17 @@
 					
 					</li>
 					
-					<li class="all moto">									
+					<li>									
 					<img class="image img-responsive all moto" src="products/motox2.jpeg" alt="motog2">		
 					<ul style="list-style:none;">
 						<li><b>Moto X2</b></li>						
 						<li>Rs.33,999<li>						
 					</ul>																			
 					</li>
-										
-						
-					<li class="all htc">				
-					<img src="products/htc.jpeg" alt="htc" class="image img-responsive">				
-					<ul style="list-style:none;">
-						<li><b>HTC Butterfly</b></li>
-						<li>Rs.38,990</li>			
-					</ul>
-					</li>
-					
-					<li class="all nokia">								
-					<img src="products/nokia.jpeg" alt="nokia" class="image img-responsive">
-					<ul style="list-style:none;">
-						<li><b>Nokia Lumia</b></li>
-						<li>Rs.5,999</li>
-					</ul>					
-					</li>
-					
-					<li class="all karbonn">									
-					<img src="products/karbonn.jpeg" alt="karbonn" class="image img-responsive">	
-					<ul style="list-style:none;">
-						<li><b>Karbonn</b></li>
-						<li>Rs.7821</li>									
-					</ul>
-					</li>
-										
-					<li class="all micromax">									
-					<img src="products/micromaxcanvas.jpeg" alt="micromaxcanvas" class="image img-responsive">
-					<ul style="list-style:none;">
-					<li><b>MicromaxCanvas</b></li>
-					<li>Rs.5865</li>					
-					</ul>
-					</li>
-					
-					<li class="all micromax">										
-					<img src="products/micromaxunite.jpeg" alt="micromaxunite" class="image img-responsive">
-					<ul style="list-style:none;">
-					<li><b>MicromaxUnite</b></li>
-					<li>Rs.6900</li>					
-					</ul>
-					</li>
-					
-					<li class="all xolo">									
-					<img src="products/xolo.jpeg" alt="xolo" class="image img-responsive">
-					<ul style="list-style:none;">					
-					<li><b>Xolo</b></li>
-					<li>Rs.5886</li>					
-					</ul>
-					</li>
-																	
-					<li class="all asus">				
-					<img src="products/asuszenfone5.jpeg" alt="asuszenfone5" class="image img-responsive">
-					<ul style="list-style:none;">
-					<li><b>AsusZenfone5</b></li>
-					<li>Rs.9999</li>					
-					</ul>
-					</li>
-				
-					<li class="all htc">									
-					<img src="products/htcdesire210.jpeg" alt="htcdesire210" class="image img-responsive">	
-					<ul style="list-style:none;">				
-					<li><b>Htc Desire 210</b></li>
-					<li>Rs.8350</li>					
-					</ul>
-					</li>
-					
-					<li class="all samsung">				
-					<img src="products/samsunggalaxy.jpeg" alt="samsunggalaxy" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>Samsung Galaxy</b></li>
-					<li>Rs.5252</li>					
-					</ul>
-					</li>
-					
-					<li class="all google">				
-					<img src="products/googlenexus.jpeg" alt="googlenexus" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>Google Nexus</b></li>
-					<li>Rs.26999</li>					
-					</ul>
-					</li>
-										
-					<li class="all nokia">				
-					<img src="products/nokiax.jpeg" alt="nokiax" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>NokiaX</b></li>
-					<li>Rs.5888</li>					
-					</ul>
-					</li>
-						
-					<li class="all alcatel">								
-					<img src="products/alcatel.jpeg" alt="alcatel" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>Alcatel</b></li>
-					<li>Rs.14999</li>					
-					</ul>
-					</li>
-					
-					<li class="all apple">
-					<img src="products/appleiphone4s.jpeg" alt="appleiphone4s" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>AppleIphone4s</b></li>
-					<li>Rs.23000</li>					
-					</ul>
-					</li>
-					
-					<li class="all apple">
-					<img src="products/sony1.jpeg" alt="appleiphone4s" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>Sony Xperia M</b></li>
-					<li>Rs.10,490</li>					
-					</ul>
-					</li>
-				
-					<li class="all sony">
-					<img src="products/sony2.jpeg" alt="appleiphone4s" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>Sony Xperia M2 Dual</b></li>
-					<li>Rs.16,999</li>					
-					</ul>
-					</li>
-					
-					<li class="all samsung">
-					<img src="products/samsunggrand.jpeg" alt="samsunggrand" class="image img-responsive">
-					<ul style="list-style:none;">				
-					<li><b>Samsung Grand</b></li>
-					<li>Rs.217900</li>					
-					</ul>
-					</li>
-										
-				</ul>
-				</div>						
-			
-		</div>
-		</div>
-	<div class="container">
-	<div class="row">	
-        <p>&copy; 2014 shop@EZ.com All rights reserved | Privacy Policy | Terms of use</p>		
-		</div>
-    </div>
-	
+    </ul>
+	</div>
+	</div>
+	</div>
 </body>
+
 </html>
